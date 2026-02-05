@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+__pycache__/
+.env
+*.ipynb
+*.csv
+anaconda3/
+VirtualBox VMs/
+Zotero/
