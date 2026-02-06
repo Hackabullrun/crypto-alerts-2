@@ -7,3 +7,5 @@ __pycache__/
 anaconda3/
 VirtualBox VMs/
 Zotero/
+sendgrid.env
+sendgrid.env
