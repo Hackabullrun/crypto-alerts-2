@@ -9,6 +9,10 @@ const PORT = process.env.PORT || 3000;
 // Configuración
 app.use(cors());
 app.use(express.json());
+// Health check (para Railway y el panel)
+app.get('/health', (req, res) => {
+  res.json({ status: 'ok' });
+});
 
 // ⚠️ IMPORTANTE: Reemplaza con tu API Key de SendGrid
 // Obtén tu API Key en: https://app.sendgrid.com/settings/api_keys
